@@ -12,12 +12,12 @@ numberTwoInput.addEventListener('keyup', function() {
 });
 
 buttonSumInput.addEventListener('click', function() {
-  let firstValue = numberOneInput.value;
-  let secondValue = numberTwoInput.value;
+  const firstValue = numberOneInput.value;
+  const secondValue = numberTwoInput.value;
   
   if (firstValue !== "" && secondValue !== "")  {
-    let sum = Number(firstValue) + Number(secondValue);
-    resultEl.innerHTML = sum;
+    let sumOfValues = sum(firstValue, secondValue);
+    resultEl.innerHTML = `The result of the sum is: ${sumOfValues}`;
   } else {
     alert ('Type two numbers');
   }
@@ -25,4 +25,8 @@ buttonSumInput.addEventListener('click', function() {
 
 function formatNumber(value){
   return value.replace(/\D/g, "");
+};
+
+function sum(firstValue, secondValue) {
+  return Number(firstValue) + Number(secondValue);
 };
