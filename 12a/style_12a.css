@@ -1,0 +1,44 @@
+.green-button {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.green-button:hover {
+	background-color:#5cbf2a;
+}
+.green-button:active {
+	position:relative;
+	top:1px;
+}
+
+.red-button {
+	background-color:#d91414;
+	border-radius:28px;
+	border:1px solid #020000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.red-button:hover {
+	background-color:#6e0f0f;
+}
+.red-button:active {
+	position:relative;
+	top:1px;
+}
+
+                
+
