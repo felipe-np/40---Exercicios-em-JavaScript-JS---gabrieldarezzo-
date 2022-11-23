@@ -1,0 +1,15 @@
+.input-number {
+  padding: 13px;
+  font-size: 15px;
+  border-width: 3px;
+  border-color: #b71a1a;
+  background-color: #ffffff;
+  color: #1d0202;
+  border-style: double;
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+  text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+.input-number:focus {
+  outline:none;
+}
