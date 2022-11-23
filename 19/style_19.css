@@ -1,0 +1,15 @@
+.number {
+  padding: 6px;
+  font-size: 18px;
+  border-width: 1px;
+  border-color: #000000;
+  background-color: #dddddd;
+  color: #be2877;
+  border-style: double;
+  border-radius: 37px;
+  box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+  text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+.number:focus {
+  outline:none;
+}
