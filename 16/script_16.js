@@ -1,3 +1,5 @@
+// Function was already used in the 10th exercise.
+
 const numberOneInput = document.querySelector("#first-number");
 const numberTwoInput = document.querySelector("#second-number");
 const buttonSumInput = document.querySelector("#btn-sum");
