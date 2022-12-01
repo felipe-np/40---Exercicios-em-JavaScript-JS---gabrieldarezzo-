@@ -1,0 +1,14 @@
+.fonte-tabuada {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  word-spacing: 0.8px;
+  color: #FF2222;
+  font-weight: normal;
+  text-decoration: underline rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  text-align: left;
+}
+
