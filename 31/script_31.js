@@ -15,4 +15,3 @@ function createElements(i, j) {
   resultadoEl.appendChild(pTag);
   resultadoEl.appendChild(brTag);
 }
-
