@@ -1,4 +1,3 @@
-
 const dateElement = document.querySelector("#result");
 
 let today = new Date();
@@ -12,4 +11,9 @@ let mm = String(month).padStart(2, "0");
 
 today = dd + "/" + mm + "/" + year;
 
-dateElement.innerHTML = today;
+const nextMonth = month > 11 ? month % 11 : month + 1;
+
+const newDate = new Date();
+newDate.setMonth(nextMonth - 1);
+
+dateElement.innerHTML = `Today date is ${today}. Next month is ${newDate.toLocaleString('en-US', { month: 'long' })}.`
