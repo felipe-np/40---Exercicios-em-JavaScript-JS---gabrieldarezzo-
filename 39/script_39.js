@@ -5,7 +5,6 @@ let newArray = [];
 
 
 buttonSubmitEl.addEventListener("click", function() {
-  let i = 0
   newArray.push(textAreaEl.value);
   createElements(textAreaEl.value);
   textAreaEl.value = "";
@@ -14,8 +13,8 @@ buttonSubmitEl.addEventListener("click", function() {
 
 
 function createElements (value) {
-  let ilTag = document.createElement("li");
-  listEl.appendChild(ilTag);
-  ilTag.innerHTML = value;
+  let liTag = document.createElement("li");
+  listEl.appendChild(liTag);
+  liTag.innerHTML = value;
  };
  
